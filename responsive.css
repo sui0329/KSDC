@@ -49,6 +49,10 @@
     .menu:hover .subMenu {
       display: block;
     }
+
+    .top-wrapper {
+        background-position: 50%;
+    }
     
     .top-wrapper h1 {
       font-size: 24px;

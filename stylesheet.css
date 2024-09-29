@@ -304,3 +304,7 @@
     background-color: #e2cf8e;
     text-align: center;
   }
+
+  .subMenu ul li a {
+      color:white;
+  }

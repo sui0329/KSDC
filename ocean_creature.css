@@ -1,0 +1,26 @@
+body {
+  background-color: #60b5ae;
+}
+
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  color: #ffe17f;
+}
+
+video {
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+
+.creature-wrapper {
+  width: 100%;
+  margin: auto;
+  padding: 5% 5%;
+}
+
+.creature-wrapper p {
+  text-align: center;
+  color: #ffe17f;
+}

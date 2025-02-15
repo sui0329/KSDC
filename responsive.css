@@ -17,13 +17,25 @@
       font-size: 20px;
     }
   }
+
+  .menu {
+    background-color: rgb(83, 83, 220);
+  }
+
+  .menu a{
+    display:none;
+  }
   
   /* スマホ向けレイアウト */
   @media all and (max-width: 700px) {
     .lesson {
       width: 100%;
     }
-  
+
+    .heading h2 {
+      font-size: 20px;
+    }
+
     .btn {
       width: 100%;
     }
@@ -40,9 +52,14 @@
     .header-right{
       display:none;
     }
+
+    .submenu{
+      margin-top: 0px;
+      display:block;
+    }
     
     /* menu-iconクラスのdisplayをblockに指定してください  */
-    .menu-icon{
+    .menu a{
       display:block;
     }
 

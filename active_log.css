@@ -4,6 +4,14 @@
     padding: 5% 5%;
 }
 
+.top-wrapper h1{
+    color: #ffbb00;
+  }
+
+h1 {
+    color: #ffe17f;
+  }
+
 .log-wrapper h1,p,h2 {
     color: #ffe17f;
 }

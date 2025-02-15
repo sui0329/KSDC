@@ -2,6 +2,14 @@ body {
   background-color: #60b5ae;
 }
 
+.top-wrapper h1{
+  color: #ffbb00;
+}
+
+h1 {
+  color: #ffe17f;
+}
+
 h2 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 40px;

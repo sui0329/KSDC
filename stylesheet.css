@@ -1,309 +1,121 @@
-* {
-    box-sizing: border-box;
-  }
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>KSDC ホームページ　慶應義塾大学公認　スキューバダイビングサークル　星空　沖縄　ハワイ　シュノーケリング</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KSDC</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="responsive.css">
+        <link rel="stylesheet" href="active_log.css">
+    </head>
+    <body>
+      <header>
+        <div class="container">
+          <div class="header-left">
+            <img class="logo" src="./img/logo.png">
+          </div>
+          <!-- ここにスマートフォン用のメニューアイコンを追加してください -->
+      
+          <div class="menu">
+            <a href="">メニュー</a> 
+            <div class="subMenu">
+              <ul>
+                <li><a class="sub" href="index.html">ホーム</a></li>
+                <li><a class="sub" href="ocean_creature.html">見れる生物</a></li>
+                <li><a class="sub active" href="active_log.html">活動記録</a></li>
+                <li><a class="sub" href="calender.html">KSDCとは</a></li>
+              </ul>
+            </div>
+          </div>
 
-  ul li{
-    list-style: none;
-  }
-  
-  body {
-    margin: 0;
-    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
-    background-color: #60b5ae;
-  }
-  
-  a {
-    text-decoration: none;
-  }
+      <!--ここまで-->
+      
+          <div class="header-right">
+            <a href="index.html">ホーム</a>
+            <a href="ocean_creature.html">見れる生物</a>
+            <a class="active" href="active_log.html">活動記録</a>
+            <a href="calender.html">KSDCとは</a>
+          </div>
+        </div>
+      </header> 
+        <div class="top-wrapper">
+          <div class="container">
+            <h1>LET'S DIVE IN THE OCEAN,</h1>
+            <h1>AND MAKE SOME UNFORGETTABLE MEMORIES.</h1>
+            <p>KSDCは慶應義塾大学公認のスキューバダイビングサークルです。</p>
+            <p>泳げない人も大歓迎！！一緒に世界の7割を見に行こう！！！</p>
+            <div class="btn-wrapper">
+              <a href="https://www.instagram.com/ksdc__2024/?igsh=N3A3MDV4ZWZncnox" target="_blank" class="btn instagram"><span class="fa fa-instagram"></span>instagram</a>
+              <a href="https://x.com/KSDC2024" target="_blank" class="btn twitter"><span class="fa fa-twitter"></span>twitter</a>
+            </div>
+          </div>
+        </div>
+        <div class="log-wrapper"></div>
+          <h1>新歓PV</h1>
+          <div class="log-image">
+            <video src="./video/shinkan.mp4" controls></video>
+          </div>
+          <p></p>
+        </div>
+        <div class="log-wrapper">
+          <h1>2024年 8月20〜28日 宮古島合宿</h1>
+          <div class="log-image">
+            <img src="./img/miyako.JPG" alt="">
+          </div>
+          <p></p>
+        </div>
+        <div class="log-wrapper"></div>
+          <h1></h1>
+          <div class="log-image">
+            <img src="" alt="">
+          </div>
+          <p></p>
+        </div>
+        <div class="log-wrapper">
+          <h1>2024年 3月2〜9日 奄美大島合宿</h1>
+          <div class="log-image">
+            <img src="./img/amami.JPG" alt="">
+          </div>
+          <p></p>
+        </div>
+        <div class="log-wrapper">
+          <h1>2023年 10月21〜22日 伊豆大島合宿</h1>
+          <div class="log-image">
+            <img src="./img/izuoshima.JPG" alt="">
+          </div>
+          <p></p>
+        </div>
+        <div class="log-wrapper">
+          <h1>2023年 8月22〜31日 小笠原合宿</h1>
+          <div class="log-image">
+            <img src="./img/ogasawara.JPG" alt="">
+          </div>
+          <p></p>
+        </div>
+        <div class="log-wrapper">
+          <h1></h1>
+          <div class="log-image">
+            <img src="" alt="">
+          </div>
+          <p></p>
+        </div>
+        <div class="message-wrapper">
+          <div class="container">
+            <div class="heading">
+              <h2>さぁ、きみもKSDCに入って世界の7割を見に行かないかい?</h2>
+              <h3>Let's dive in the sea, and make some unforgettable memories.....</h3>
+            </div>
+            <a href="https://line.me/ti/g2/K_BMPsdnHGtGZYVG1NTv6_uGYwF1BnY16-52vw?utm_source=invitation&utm_medium=link_copy&utm_campaign=default" target="_blank" class="btn message">入サーする</a>
+          </div>
+        </div>
 
-  .clear {
-    clear: left;
-  }
-  
-  .container {
-    max-width: 1170px;
-    width: 100%;
-    padding: 0 15px;
-    margin: 0 auto;
-  }
-  
-  .top-wrapper {
-    padding: 180px 0 100px 0;
-    background-image: url("./img/dolphin.png");
-    background-size: cover;
-    color: #ffc400;
-    text-align: center;
-  }
-  
-  .top-wrapper h1 {
-    opacity: 0.7;
-    font-size: 45px;
-    letter-spacing: 5px;
-  }
-  
-  .top-wrapper p {
-    opacity: 0.7;
-  }
-  
-  .btn-wrapper {
-    text-align: center;
-    margin: 20px 0;
-  }
-  
-  .btn-wrapper p {
-    margin: 10px 0;
-  }
-  
-  .signup {
-    background-color: #239b76;
-  }
-  
-  .instagram {
-    background-color: #cf2e92;
-    margin-right: 10;
-    margin-bottom: 10px;
-  }
-  
-  .twitter {
-    background-color: #55acee;
-  }
-  
-  .btn {
-    padding: 8px 24px;
-    color: white;
-    display: inline-block;
-    opacity: 0.8;
-    border-radius: 4px;
-    text-align: center;
-  }
-  
-  .btn:hover {
-    opacity: 1;
-  }
-  
-  .fa {
-    margin-right: 5px;
-  }
-  
-  header {
-    height: 65px;
-    width: 100%;
-    background-color: #343c8f;
-    position :fixed;
-    top: 0;
-    z-index: 10;
-  }
-
-  .active {
-    background-color: #7078d0;
-  }
-  
-  .logo {
-    width: 124px;
-    margin-top: 20px;
-  }
-  
-  .header-left {
-    float: left;
-  }
-  
-  .header-right {
-    float: right;
-    margin-right: -25px;
-  }
-  
-  .header-right a {
-    line-height: 65px;
-    padding: 0 25px;
-    color: white;
-    display: block;
-    float: left;
-    transition: all 0.5s;
-  }
-
-  /* menu-iconのCSSを貼り付けてください */
-  .menu-icon {
-    color: white;
-    float: right;
-    font-size: 25px;
-    padding: 21px 0;
-    /* displayをnoneに指定してください */
-    display:none; 
-  }
-
-  .menu {
-    line-height: 65px;
-    padding: 0 25px;
-    transition: all 0.5s;
-    float:right;
-    color: #eee;
-    border-radius: 10px;
-    margin-right:40px;
-  }
-
-  .menu:hover {
-    background-color: #7078d0 ;
-  }
-  
-  .header-right a:hover {
-    background-color: #7078d0;
-  }
-
-  .subMenu {
-    width: 130px;
-    text-align: center;
-    height: 65px;
-  }
-
-  .subMenu li:last-child{
-    border: none;
-  }
-  
-  .subMenu {
-    color: white;
-    position: absolute;
-    line-height: 65px;
-    margin-top: 65px;
-    margin-right: 5%;
-    width: 130px;
-    float: right;
-    display: none;
-    transition: 2s;
-  }
-
-  .subMenu ul {
-    width: 100px;
-    margin: 0px;
-    padding-left: 0px;
-    padding-right: 60px;
-    color: rgb(196, 193, 193);
-    border-radius: 100px;
-    list-style-position: inside;
-  }
-
-  .subMenu ul li a:hover {
-    background-color: #7078d0;
-    color: white;
-    border-radius: 10px;
-    transition: all 0.5s;
-  }
-
-  .subMenu ul li {
-    list-style-position: inside;
-    border-radius: 10px;
-    
-  }
-
-  .subMenu ul li a {
-    display: block;
-    width: 100px;
-    transition: all 0.5s;
-    background-color: #343c8f;
-    border-radius: 10px;
-  }
-
-  .sub:hover {
-    color: white;
-  }
-  
-  .lesson-wrapper {
-    padding-bottom: 80px;
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color:#60b5ae;
-    text-align: center;
-  }
-  
-  .heading {
-    padding-top: 80px;
-    padding-bottom: 50px;
-    color: #60b5ae;
-  }
-  
-  .lesson-wrapper h2{
-    font-size: 40px;
-  }
-
-  .heading h2 {
-    font-weight: bold;
-  }
-  
-  .lesson {
-    float: left;
-    width: 25%;
-  }
-  
-  .lesson-icon {
-    position: relative;
-  }
-  
-  .lesson-icon img {
-    border-radius: 150px;
-  }
-
-  .lesson-icon p {
-    position: absolute;
-    top: 70%;
-    width: 100%;
-    color: white;
-  }
-  
-  .text-contents {
-    width: 80%;
-    display: inline-block;
-    margin-top: 15px;
-    font-size: 13px;
-    color: #ffd95e;
-  }
-
-  .heading h3 {
-    font-weight: normal;
-  }
-  
-  .message-wrapper h2,h3{
-    color: #60b5ae;
-  }
-
-  .message-wrapper {
-    border-bottom: 1px solid #eee;
-    padding-bottom: 200px;
-    text-align: center;
-    background-image: url(./img/yuuhi.JPG);
-    background-size: cover;
-  }
-
-  .heading{
-    color: #ffdd6c;
-  }
-
-  .message {
-    padding: 15px 40px;
-    background-color: #705da8;
-    box-shadow: 0 7px #343c8f;
-  }
-  
-  .message:active {
-    position: relative;
-    top: 7px;
-    box-shadow: none;
-  }
-  
-  footer img {
-    width: 125px;
-  }
-  
-  footer p {
-    color: #343c8f;
-    font-size: 12px;
-  }
-  
-  footer {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    background-color: #e2cf8e;
-    text-align: center;
-  }
-
-  .subMenu ul li a {
-      color:white;
-  }
+        <footer>
+          <div class="container">
+            <img src="./img/logo.png">
+            <p>Let's dive in the ocean, and make some unforgettable memories</p>
+          </div>
+        </footer>
+    </body>
+</html>

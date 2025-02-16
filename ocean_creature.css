@@ -32,3 +32,9 @@ video {
   text-align: center;
   color: #ffe17f;
 }
+
+.reminder {
+  margin-top: 0px;
+  margin-bottom: 100px;
+  color: white;
+}

@@ -37,13 +37,13 @@
   }
 
   .top-wrapper h1 {
-    opacity: 0.7;
+    opacity: 0.8;
     font-size: 45px;
     letter-spacing: 5px;
   }
   
   .top-wrapper p {
-    opacity: 0.7;
+    opacity: 0.8;
   }
   
   .btn-wrapper {
@@ -146,12 +146,6 @@
     background-color: #7078d0;
   }
 
-  .subMenu {
-    width: 130px;
-    text-align: center;
-    height: 65px;
-  }
-
   .subMenu li:last-child{
     border: none;
   }
@@ -166,6 +160,9 @@
     float: right;
     display: none;
     transition: 2s;
+    width: 130px;
+    text-align: center;
+    height: 65px;
   }
 
   .subMenu ul {
@@ -215,14 +212,11 @@
   .heading {
     padding-top: 80px;
     padding-bottom: 50px;
+    font-weight: bold;
   }
   
-  .lesson-wrapper h2{
-    font-size: 40px;
-  }
-
-  .heading {
-    font-weight: bold;
+  .lesson-wrapper h2 {
+    font-size: xx-large;
   }
   
   .lesson {
@@ -249,7 +243,7 @@
     width: 80%;
     display: inline-block;
     margin-top: 15px;
-    font-size: 13px;
+    font-size: x-large;
     color: #ffd95e;
   }
   
@@ -267,6 +261,10 @@
 
   .heading{
     color: #ffdd6c;
+  }
+
+  .heading h2 {
+    font-size: xx-large;
   }
 
   .message {

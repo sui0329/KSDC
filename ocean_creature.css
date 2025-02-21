@@ -17,10 +17,16 @@ h2 {
 }
 
 video {
-    width: 80%;
-    display: block;
-    margin: auto;
-  }
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+img {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
 
 .creature-wrapper {
   width: 100%;
